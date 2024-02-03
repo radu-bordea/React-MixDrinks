@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cocktail = () => {
   return (
-    <div>Cocktail</div>
+    <h1>Cocktail</h1>
   )
 }
 
