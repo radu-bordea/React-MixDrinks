@@ -3,6 +3,6 @@
 - npm install styled-components
 
 // api to fetch data
-- https://www.thecocktaildb.com/api.php
+- https://www.thecocktaildb.com/api/json/v1/1/search.php?s=
 
 
