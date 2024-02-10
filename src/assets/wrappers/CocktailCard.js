@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 const Wrapper = styled.article`
   background: var(--white);
   box-shadow: var(--shadow-2);
@@ -18,12 +18,12 @@ const Wrapper = styled.article`
     padding: 1.5rem;
     h4,
     h5 {
-      margin-bottom: 0.5rem;
+      margin-bottom: 0%.5rem;
     }
     h4 {
       font-weight: 700;
     }
-    p {
+    p{
       margin-bottom: 1rem;
       color: var(--grey-500);
     }

@@ -24,7 +24,7 @@ const router = createBrowserRouter([
         loader: landingLoader,
       },
       {
-        path: "cocktail",
+        path: "cocktail/:id",
         element: <Cocktail />,
       },
       {
