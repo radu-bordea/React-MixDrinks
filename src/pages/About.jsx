@@ -1,9 +1,13 @@
 import Wrapper from "../assets/wrappers/AboutPage";
 
+// About component to render information about the application
 const About = () => {
   return (
+    // Wrapper for styling
     <Wrapper>
+      {/* Heading */}
       <h3>About Us</h3>
+      {/* Description */}
       <p>
         Introducing "MixDrinks," a sleek cocktail app revolutionizing mixology.
         Access a vast database of recipes via our API, ensuring real-time
