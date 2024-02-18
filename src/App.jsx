@@ -11,6 +11,7 @@ import {
 
 import { loader as landingLoader } from "./pages/Landing";
 import { loader as singleCocktailLoader } from "./pages/Cocktail";
+import { action as newsLetterAction } from "./pages/Newsletter";
 
 // Create the router configuration
 const router = createBrowserRouter([
@@ -27,13 +28,15 @@ const router = createBrowserRouter([
       },
       {
         path: "cocktail/:id", // Path for displaying individual cocktail pages
-        errorElement: <SinglePageError/>, // Render SinglePageError for individual cocktail page errors
+        errorElement: <SinglePageError />, // Render SinglePageError for individual cocktail page errors
         loader: singleCocktailLoader, // Loader function for fetching data for individual cocktail pages
         element: <Cocktail />, // Render Cocktail component for individual cocktail pages
       },
       {
         path: "newsletter",
         element: <Newsletter />, // Render Newsletter component for the /newsletter path
+        action: newsLetterAction,
+        errorElement: <SinglePageError />,
       },
       {
         path: "about",
