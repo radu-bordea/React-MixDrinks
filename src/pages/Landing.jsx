@@ -1,6 +1,7 @@
 import { useLoaderData } from "react-router-dom";
 import axios from "axios";
 import CocktailList from "../components/CocktailList";
+import SearchForm from "../components/SearchForm";
 
 // URL for searching cocktails
 const cocktailSearchUrl =
@@ -24,6 +25,7 @@ const Landing = () => {
 
   return (
     <>
+      <SearchForm />
       {/* Render CocktailList component with the list of drinks */}
       <CocktailList drinks={drinks} />
     </>
